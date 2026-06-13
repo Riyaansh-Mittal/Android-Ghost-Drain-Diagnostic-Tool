@@ -118,6 +118,55 @@ system-level wakelocks not visible in Android settings.
 
 ---
 
+## Battery Drain by User Type — Specific Fixes
+
+### 📱 Gamers — Battery Draining During and After Gaming Sessions
+Gaming sessions generate heat (accelerating degradation) and drain
+battery at 3–8x normal rate. The biggest mistakes gamers make:
+
+- **Charging while gaming** at over 80%: heat from both gaming and charging
+  simultaneously is the fastest path to permanent capacity loss
+- **Overnight charging to 100%**: keeps the battery at maximum voltage
+  for hours, accelerating degradation
+
+**The gamer fix:** Set Battery Health Monitor's alarm to 90% during gaming
+sessions so you always have headroom without hitting 100% voltage stress.
+The thermal alert at 42°C tells you exactly when to stop charging and let
+the phone cool before your next session.
+
+---
+
+### 🚗 Gig Drivers (Uber, Grab, Rappi, Bykea, Swiggy, Zomato) — Keeping Phone Alive All Day
+Delivery and rideshare drivers run navigation, calls, and screen-on
+continuously for 8–12 hour shifts. Key problems:
+
+- **Car charger delivering less current than screen-on drain:**
+  your phone loses battery even while "charging" — Battery Health Monitor
+  shows live watts so you can tell if your car charger is keeping up
+- **Heat from dashboard mounting** in direct sun: temperatures above 45°C
+  during a shift cause permanent capacity loss within weeks
+- **Counterfeit car charger:** unstable current (>200mA variance) detected
+  by Battery Health Monitor's charger verification feature
+
+**The driver fix:** Mount your phone out of direct sunlight, use a 15W+
+car charger (verify it in Battery Health Monitor), and set the low alarm
+to 30% so you always have emergency buffer.
+
+---
+
+### 👴 Normal Users — "My Phone Just Doesn't Last the Day Anymore"
+If your 2–3 year old phone used to last all day and now dies by 3pm,
+this is almost always battery degradation — not a software problem.
+
+Battery Health Monitor's health calibration tells you your phone's
+**actual remaining capacity in mAh** after 3 qualifying charge cycles.
+If your 4000mAh phone now holds 2800mAh (70% health), that explains
+exactly why your day-long battery became a half-day battery.
+
+**When health drops below 80%, battery replacement costs ₹500–₹1500
+in India, R$80–R$150 in Brazil, ₺300–₺600 in Turkey — far less than
+a new phone.**
+
 ## Free AccuBattery Alternative — Why Battery Health Monitor Exists
 
 AccuBattery is the most downloaded battery app on Android with over
